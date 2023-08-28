@@ -3,60 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media List</title>
+    <title>Semantic Tables and Media</title>
+    <link rel="stylesheet" href="Semantic Tables and Media.css">
 </head>
 <body>
-    <h1>List of medias</h1>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Roll Number</th>
-                <th>Name</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>John Doe</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Jane Smith</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Alice Johnson</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <ol>
-        <li>
-            <figure>
-                <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
-                <figcaption>Image: Source <a href="https://picsum.photos/id/123/200/300">https://picsum.photos/id/123/200/300</a></figcaption>
-            </figure>
-        </li>
-        <li>
-            <figure>
+    <main>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Roll numbers</th>    
+                    <th>Names</th>    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Akash</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Aman</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Prakash</td>
+                </tr>
+            </tbody>    
+        </table>
+        <h2>List of medias</h2>
+        <ol>
+            <li>
+                <img src="https://picsum.photos/id/123/200/300" alt="image description">
+            </li>
+            <li>
                 <video controls>
-                    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
+                    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
                 </video>
-                <figcaption>Video: Source <a href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4</a></figcaption>
-            </figure>
-        </li>
-    <li>
-        <figure>
-            <audio controls>
-                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-                Your browser does not support the audio tag.
-            </audio>
-            <figcaption>Audio: Source <a href="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg</a></figcaption>
-        </figure>
-    </li>
-
-    </ol>
+            </li>
+            <li>
+                <audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                </audio>
+            </li>
+        </ol>
+    </main>
+    
 </body>
 </html>
